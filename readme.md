@@ -12,4 +12,4 @@
 
 ### Resultado final
 
-![imagem](https://github.com/AnaBeat/Codificador-e-descodificador/blob/master/img/resultado.jpg)
+![imagem](https://github.com/driica/Jogo-da-Forca/blob/master/img/resultado.jpg)
