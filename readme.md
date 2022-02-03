@@ -1,4 +1,4 @@
-# Projeto ChallengeOneLogicaBr
+# Projeto ChallengeOneJogoForca
 
 ## Jogo da Forca
 
