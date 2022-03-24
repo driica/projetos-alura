@@ -7,7 +7,7 @@
 
 - HTML
 - CSS
-- Javascritpt
+- JavaScript
 - Bootstrap
 
 ### Resultado final
