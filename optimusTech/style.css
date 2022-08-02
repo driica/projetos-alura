@@ -1,0 +1,424 @@
+:root{
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.68rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sideMenu {
+    display: none;
+    visibility: hidden;
+}
+
+.sideMenu img{
+    position: relative;
+    width: 24px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu.active {
+    right: 0;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+  }
+
+.menulist a{
+    list-style: none;
+    margin-right: 2rem; 
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+button{
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer; 
+    background: none;   
+}
+
+
+#b-cadastrar{
+    color: white; 
+    background-color: var(--main-color); 
+}
+
+/* Cabeçalho - Primeira seção */
+
+
+.about{
+   padding: 6rem 1rem; 
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+
+}
+
+.about span{
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.about h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about p{
+    color: var(--text-color);
+    font-size: 1.25rem;
+    max-width: 60%;
+    text-align: center;
+}
+
+/* Seção de métricas */
+
+.metricas-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0% 0% 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.metricas-container div{
+    width: 16.8rem;
+
+}
+
+.metricas-container h1{
+    color: var(--main-color);
+    font-size: 2.16rem;
+    font-weight: 600;
+    line-height: 4.32rem;
+}
+
+.metricas-container h4{
+    font-weight: 500;
+    font-size: 1.08rem;
+    line-height: 1.68rem;
+}
+
+.metricas-container p{
+    color: var(--text-color);  
+    line-height: 1.44rem;
+}
+
+/* Seção de vagas */
+
+.vagas-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-left: 8%;
+    margin-right: 8%; 
+    padding: 5.76rem 0rem;
+    
+}
+
+.vagas-content span{
+    color: var(--main-color);
+    background-color: #E5E5E5;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.vagas-content h1{
+    font-size: 2.06rem;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.vagas-content p{
+    font-size: 1.2rem;
+}
+
+.vagas-content img{
+    margin-top: 3.84rem;
+    width: 100%;
+    
+}
+
+.vagas-abertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.design{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.design h4{
+    font-size: calc(0.7rem + 0.5vw);
+}
+
+.design h5{
+    font-size: 1.13rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.design span{
+    color: var(--text-color);  
+}
+
+.jobPost {
+    border: 0.063rem solid #EAECF0;
+    padding: 1.5rem;
+    min-width: 38.4vw;
+}
+
+
+.desenvolvimento{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem; 
+    margin-top: 3.84rem;
+    margin-bottom: 6rem;
+}
+
+
+.desenvolvimento h4{
+    font-size: calc(0.7rem + 0.5vw);
+}
+
+.desenvolvimento h5{
+    font-size: 1.13rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.desenvolvimento span{
+    color: var(--text-color);  
+}
+
+/* Seção de depoimentos */
+
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 3rem 4rem;
+    background-color: rgba(196, 25, 25, 0.03);
+    
+}
+
+.depoimentos div#quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#subheading{
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.depoimentos h2{
+    letter-spacing: -0.02em;
+    max-width: 70%;
+    font-weight: 500;
+}
+
+.depoimentos div#avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.depoimentos h5{
+    font-weight: 600;
+    text-align: center;
+}
+
+#supportingText{
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* Seção final - formulário de email */
+
+footer {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;
+    background-color: #F9FAFB;
+    padding: 6rem 1rem;
+    gap: 2rem;    
+    text-align: center;
+    margin-top: 120px;
+}
+
+footer h1{
+   color: #101828;
+}
+
+footer span{
+    color: var(--text-color);
+}
+
+footer form{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 1rem;
+}
+
+footer input{
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 12rem;
+    margin: auto;
+}
+
+footer button{
+    margin: auto;
+}
+
+footer #copyright{
+    color: #98A2B3;
+    font-size: 1rem;
+}
+
+/* Responsividade */
+
+
+  @media screen and (max-width: 850px) {
+    .metricas-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .metric {
+      margin-bottom: 2rem;
+    }
+  
+    .metric h1, h4, p{
+      max-width: 280px;
+      text-align: center;
+    }
+
+    .about h1{
+        font-size: 2rem;
+    }
+  
+    .about p {
+      max-width: 70%;
+      font-size: 1.2rem;
+    }
+
+    #subheading {
+      text-align: center;
+
+    }
+    
+  
+    .depoimentos h2{
+      max-width: 100%;
+      font-size: 120%;
+      text-align: center;
+    }
+  
+    /* Ajustes de menu aqui */
+  
+    .sideMenu {
+      display: initial;
+      visibility: visible;
+      z-index: 99;
+    }
+  
+    .menulist {
+      margin: 2rem 0;
+    }
+  
+    .menulist a {
+      margin-right: 0;
+    }
+  
+    .menu {
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      right: -1000px;
+      height: 100vh;
+      background: #F9FAFB;
+      width: 15rem;
+      padding: 2rem;
+      transition: all 2s;
+    }
+  
+    .menu .menulist, .menu .buttons {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
