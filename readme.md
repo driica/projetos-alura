@@ -1,4 +1,4 @@
-# Projetos que desenvolvi na Alura 
+# Projetos que desenvolvi na Alura 🌠
 <br>
 <ul>
     <li><a href="https://forca-three.vercel.app/" target="_blank">Jogo da Forca (Challenge)</a></li>
