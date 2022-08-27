@@ -1,2 +1,0 @@
-# alura-dev
-Alura Challenge
