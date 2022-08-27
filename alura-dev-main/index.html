@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Alura Dev">
+            </div>
+            <div class="search">
+                <input type="text" name="search-input" id="search-input" placeholder="Busque por algo">
+                <div class="search-button">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="menubar">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="profile-info">
+                    <img src="assets/profile.svg" alt="Profile">
+                    <span>Adriana Beatriz</span>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <aside class="left-menu">
+            <span>Menu</span>
+            <div class="code-editor">
+                <div class="image">
+                    <i class="fas fa-code"></i> 
+                </div>
+                <span>Editor de código</span>
+            </div>
+            <div class="community">
+                <div class="image">
+                    <i class="fas fa-users"></i>                       
+                </div>
+                <span>Comunidade</span>
+            </div>
+        </aside>
+    
+        <section>
+            <div class="background-code">
+                <div class="code">
+                    <img src="assets/buttons.svg" alt="">
+                    <textarea name="code" id="code" cols="" rows=""></textarea>
+                </div>
+            </div>
+            <button type="button" class="highlight">Visualizar com highlight</button>
+        </section>
+    
+        <aside class="right-menu">
+            <div class="project">
+                <span>Seu projeto</span>
+                <input type="text" name="name" id="name" placeholder="Nome do seu projeto">
+                <textarea name="desc" id="desc" cols="25" rows="3" placeholder="Descrição do seu projeto"></textarea>
+            </div>
+
+            <div class="custom">
+                <span>Personalização</span>
+                <div class="color-option">
+                    <select name="languages" id="languages">
+                        <option value="js">Javascript</option>
+                        <option value="py">Python</option>
+                        <option value="java">Java</option>
+                        <option value="swift">Swift</option>
+                    </select>
+                    <div class="color">
+                        <input type="color" name="color" id="color">
+                    </div>
+                </div>
+            </div>
+            <button type="button">Salvar Projeto</button>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
