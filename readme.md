@@ -1,5 +1,5 @@
 # Projetos que desenvolvi na Alura 🌠
-Link dos projetos ⏬
+Links dos projetos ⏬
 <br>
 <ul>
     <li><a href="https://forca-three.vercel.app/" target="_blank">Jogo da Forca (Challenge ONE)</a></li>
