@@ -1,4 +1,4 @@
-# Projetos que desenvolvi na Alura 🌠
+# Projetos que desenvolvi na Alura 
 Links dos projetos ⏬
 <br>
 <ul>
