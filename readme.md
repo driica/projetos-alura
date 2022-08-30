@@ -11,4 +11,5 @@ Links dos projetos ⏬
     <li><a href="https://fruta.vercel.app/" target="_blank">Fruto & Fruta</a></li>
     <li><a href="https://optimus-tech-wheat.vercel.app/" target="_blank">OptimusTech (7DaysOfCode) </a></li>
     <li><a href="https://nutricionista-aparecida.vercel.app/" target="_blank">Aparecida Nutricionista</a></li>
+    <li><a href="https://alurinha-khaki.vercel.app/" target="_blank">Alurinha (FlexBox)</a></li>
 </ul>
